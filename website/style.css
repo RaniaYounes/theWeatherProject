@@ -1,0 +1,144 @@
+body{
+    
+    font-family: 'Arial', sans-serif;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+     background-attachment: fixed;
+}
+
+#app{
+    display: grid;
+    grid-auto-rows: minmax(150px, auto);
+    /* grid-template-columns:  */
+    height:100vh;
+    
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    grid-gap: 1em;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.holder{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: auto;
+}
+
+.entry{
+   
+    width: 350px;
+    height: 200px;
+    border-radius: 5px;
+    align-items: center;
+   
+}
+
+#entryHolder{
+
+    align-items: center;
+
+}
+#enter{
+    width: 350px;
+    align-items: center;
+}
+
+#date{
+
+}
+
+#temp{
+
+}
+
+#content{
+
+}
+
+.headline {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+padding: 10px;
+height: 150;
+margin-top: 70px;
+}
+.title{
+    width: 350px;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    font-size: 27px;
+}
+
+input{
+    display:block;
+    height: 30px;
+    width: 300px;
+   
+    color: #070707;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    border: none;
+    border-radius: 5px;
+}
+
+button{
+    width: 200px;
+    height: 70px;
+       background: #24429c;
+    color: black;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px rgb(85, 75, 75);
+    margin-top: 20px;
+}
+h1{
+    font-size: 36px;
+    
+}
+
+
+textarea{
+    background:white;
+    color: black;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+   border-radius: 5px;
+   width: 300px;
+}
+/* Reset style for HTML element on active to have no border*/
+/*input:focus,
+/*select:focus,
+/*textarea:focus,
+button:focus {
+ outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: black; 
+    font-family: 'Arial', sans-serif;
+
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: black; 
+    font-family: 'Arial', sans-serif;
+
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: black; 
+    font-family: 'Arial', sans-serif;
+
+} 
